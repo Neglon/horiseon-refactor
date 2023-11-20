@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <!--Added the below 2 meta elements for better accessability, got these from the prework study guide web page build-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!--Added the type info in the link element for the css file-->
+    <title>Horiseon Services</title>
+    <!--Changed browser tab to show Horiseon Services instead of saying website-->
+</head>
+    <!--replaced div elements with header and footer elements in the appropriate areas along 
+        the hero, content, and benefits sections-->
+<body>
+    <header>
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <!-- a # in front allows the link to navigate to an id of the same name, of the same class
+                    This creates the id selector, no need to add the selector in the css file-->
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero"></section>
+
+    <main>
+        <div id="search-engine-optimization">
+        <!--Added the above id to allow the link to bring the browser to the correct area-->
+            <img src="./assets/images/search-engine-optimization.jpg" alt="Table with Search Engine Optimization binder, Coffee, Laptop and Pens on it" class="float-left" />
+            <!--Added the alt text for screen readers, slow load times and broken images-->
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </div>
+        <div id="online-reputation-management">
+            <img src="./assets/images/online-reputation-management.jpg" alt="Person sitting at a laptop with a reputation graph on the screen" class="float-right" />
+            <!--Added the alt text-->
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </div>
+        <div id="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" alt="Overhead view of workes ar a conference table, with bubble words of tweet, media, like, share" class="float-left" />
+            <!--Added alt text-->
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </div>
+    </main>
+
+    <section class="benefits">
+        <div>
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" alt="Gear on top of a funnel pointing down to a money symbol"/>
+            <!--Added alt text-->
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </div>
+        <div>
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" alt="Lightbulb on top of a persons body in a suit and tie"/>
+            <!--Added alt text-->
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </div>
+        <div>
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" alt="A gear surrounded by money symbols"/>
+            <!--Added alt text-->
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </div>
+    </section>
+
+    <footer >
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2023 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+/*Universal selector for the entire page, sets up formatting so the content always fits to size of the browser window
+I messed around with removing this, so I think thats the purpose of this selectors code*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Background color for body element, overall background color for eveything inside the body of the webpage*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*header element spacing, font family, text and background color for the header element*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* header h1 element display type and font size*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*Class selector for the different color text in the seo of the Horiseon company name*/
+.seo {
+    color: #d9dcd6;
+}
+/*div elements inside the header element formatting
+This floats the links to the right side of the screen, and sets up the spacing, font sizing anf family*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*Header element for ul, and li formatting*/
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Sets the color and removes the underline for all links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Font size for all p elements*/
+p {
+    font-size: 16px;
+}
+
+/*Class selector for the main imagae on the page and its format*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*class selector being used to float content to the left of another piece of content
+Currently being used with the images in the SEO, ORM and SMM sections of the web page*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*class selector being used to float content to the right of another piece of content
+Currently being used with the images in the SEO, ORM and SMM sections of the web page*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Main element, consolidated previous code for each individual class selector into one for ease of formatting*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* div element formatting in main*/
+main div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* img elements in main*/
+main img {
+    max-height: 200px;
+}
+/*h2 elemtents within main*/
+main h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Consolidates benefits section overall look*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*Benefits class selector for all h3 elements*/
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;  
+}
+/*Benefits class selector for all img elements*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Benefit class selector for each individual section inside Benefits section for text color and spacing*/
+.benefits div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*footer element formatting*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* h2 elements with the footer font size*/
+footer h2 {
+    font-size: 20px;
+}
