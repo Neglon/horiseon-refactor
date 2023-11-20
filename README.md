@@ -27,4 +27,7 @@
 ## Code Source
     Original code was accessed via the course gitlab.
 [Uconn FSF Gitlab](https://git.bootcampcontent.com/University-of-Connecticut/CONN-VIRT-FSF-PT-11-2023-U-LOLC)
-    All edits were made solely by myself.
+    Extra meta tags were accessed from the prework material
+[Prework Code](https://bootcampspot.instructure.com/courses/4747/pages/3-dot-1-3-review-how-html-structures-a-webpage?module_item_id=997463)
+    README file code links were found at:
+[Git Hub README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
