@@ -8,9 +8,19 @@
 
 ## Instalation
     Web Page is in the link below
-    [Horiseon Marketing](https://neglon.github.io/horiseon-refactor/#search-engine-optimization)
+    ![Horiseon Marketing](https://neglon.github.io/horiseon-refactor/#search-engine-optimization)
 
 ## Usage
     Upon visiting the page, clicking any of the links on the nav bar on the top right of the page will relocate the your viewing location on the page to the appropriate section.
+    ```md
+    ![Screenshots of a part of commentented html file](assets/images/htmlupdates.PNG)
+    ```
+    ```md
+    ![Screenshots of a part of commentented css file](assets/images/css.PNG)
+    ```
 
+## Credits
+    N/A
     
+## Liscence
+    N/A
