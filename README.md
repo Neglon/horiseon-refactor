@@ -23,3 +23,8 @@
 
 ## Liscence
     N/A
+
+## Code Source
+    Original code was accessed via the course gitlab.
+[Uconn FSF Gitlab](https://git.bootcampcontent.com/University-of-Connecticut/CONN-VIRT-FSF-PT-11-2023-U-LOLC)
+    All edits were made solely by myself.
